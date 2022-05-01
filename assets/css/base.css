@@ -140,10 +140,12 @@ html{
 
 .text-link-default{
     text-decoration: none;
+    color: var(--text-color);
 }
 
 /* selection */
 .select-input{
+    min-width: 200px;
     height: 34px;
     padding: 0 12px;
     border-radius: 2px;
@@ -151,8 +153,14 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.4rem;
 }
 
 .select-input__label{
+
+}
+
+.select-input__icon{
+    color: #6d6d6d;
     font-size: 1.4rem;
 }
