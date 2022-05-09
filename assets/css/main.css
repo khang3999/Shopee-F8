@@ -1124,3 +1124,36 @@
     cursor: default;
     opacity: 0.4;
 }
+
+/* Product item */
+.home-product-item{
+    margin-top: 10px;
+}
+.home-product-item__img{
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}   
+
+.home-product-item__info{
+    
+}
+
+.home-product-item__name{
+
+}
+
+.home-product-item__voucher{
+
+}
+
+.home-product-item__voucher-date{
+
+}
+
+.home-product-item__voucher-name{
+
+}
+
+
