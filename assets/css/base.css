@@ -70,9 +70,13 @@ html{
     padding-left: 5px;
     padding-right: 5px;
     width: 20%;
-    
 }
 
+.grid__column-33{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.33333%;
+}
 
 /* Animation */
 @keyframes fadedIn{
@@ -180,4 +184,44 @@ html{
 .select-input__icon{
     color: #6d6d6d;
     font-size: 1.4rem;
+}
+
+/* Pagination */
+
+.pagination{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 40px 0 120px;
+}
+
+.pagination-item{
+    margin: 0 10px;
+}
+
+.pagination-item--active .pagination-item__link{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    width: 100%;
+    border-radius: 2px;
+}
+
+.pagination-item--active .pagination-item__link:hover{
+    background-color:#f26a4e ;
+}
+
+.pagination-item__link{
+    --height: 30px;
+    display: block;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #939393;
+    text-align: center;
+    min-width: 40px;   
+    line-height: var(--height);
+    height: var(--height);
+}
+
+.pagination-item__icon{
+
 }
